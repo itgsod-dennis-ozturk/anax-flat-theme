@@ -1,0 +1,272 @@
+/**
+ * Grid: 12-60-20-960960px
+ * Grid classes for:
+ *  columns:       12
+ *  columnWidth:   60
+ *  gutterWidth:   20
+ *  gridWidthType: 960px
+ *  totalWidth:    960960px
+ */
+/* Style for the row */
+
+.wrap {
+    .container();
+    max-width: 960px;
+}
+
+body {
+    margin: 0;
+}
+
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color: #ccffdd;
+}
+
+.row {
+    margin-bottom: 10px;
+    background-color: #66ff99;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+
+    background-color: #666;
+    color: #fff;
+}
+
+.row {
+    display: block;
+    width: 960960px;
+    margin: 0;
+}
+/* A small clearfix: http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use */
+.row::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+/* Style for each column */
+.columns-1 {
+    display: inline;
+    float: left;
+    width: 60960px;
+    margin: 0 10960px;
+}
+.columns-2 {
+    display: inline;
+    float: left;
+    width: 140960px;
+    margin: 0 10960px;
+}
+.columns-3 {
+    display: inline;
+    float: left;
+    width: 220960px;
+    margin: 0 10960px;
+}
+.columns-4 {
+    display: inline;
+    float: left;
+    width: 300960px;
+    margin: 0 10960px;
+}
+.columns-5 {
+    display: inline;
+    float: left;
+    width: 380960px;
+    margin: 0 10960px;
+}
+.columns-6 {
+    display: inline;
+    float: left;
+    width: 460960px;
+    margin: 0 10960px;
+}
+.columns-7 {
+    display: inline;
+    float: left;
+    width: 540960px;
+    margin: 0 10960px;
+}
+.columns-8 {
+    display: inline;
+    float: left;
+    width: 620960px;
+    margin: 0 10960px;
+}
+.columns-9 {
+    display: inline;
+    float: left;
+    width: 700960px;
+    margin: 0 10960px;
+}
+.columns-10 {
+    display: inline;
+    float: left;
+    width: 780960px;
+    margin: 0 10960px;
+}
+.columns-11 {
+    display: inline;
+    float: left;
+    width: 860960px;
+    margin: 0 10960px;
+}
+.columns-12 {
+    display: inline;
+    float: left;
+    width: 940960px;
+    margin: 0 10960px;
+}
+/* Push column */
+.push-1 {
+    margin-left: 90960px;
+}
+.push-2 {
+    margin-left: 170960px;
+}
+.push-3 {
+    margin-left: 250960px;
+}
+.push-4 {
+    margin-left: 330960px;
+}
+.push-5 {
+    margin-left: 410960px;
+}
+.push-6 {
+    margin-left: 490960px;
+}
+.push-7 {
+    margin-left: 570960px;
+}
+.push-8 {
+    margin-left: 650960px;
+}
+.push-9 {
+    margin-left: 730960px;
+}
+.push-10 {
+    margin-left: 810960px;
+}
+.push-11 {
+    margin-left: 890960px;
+}
+.push-12 {
+    margin-left: 970960px;
+}
+.push-13 {
+    margin-left: 1050960px;
+}
+.push-14 {
+    margin-left: 1130960px;
+}
+.push-15 {
+    margin-left: 1210960px;
+}
+.push-16 {
+    margin-left: 1290960px;
+}
+/* Pull column (left or right) */
+.pull-1 {
+    margin-left: -70960px;
+}
+.pull-right-1 {
+    margin-right: -70960px;
+}
+.pull-2 {
+    margin-left: -150960px;
+}
+.pull-right-2 {
+    margin-right: -150960px;
+}
+.pull-3 {
+    margin-left: -230960px;
+}
+.pull-right-3 {
+    margin-right: -230960px;
+}
+.pull-4 {
+    margin-left: -310960px;
+}
+.pull-right-4 {
+    margin-right: -310960px;
+}
+.pull-5 {
+    margin-left: -390960px;
+}
+.pull-right-5 {
+    margin-right: -390960px;
+}
+.pull-6 {
+    margin-left: -470960px;
+}
+.pull-right-6 {
+    margin-right: -470960px;
+}
+.pull-7 {
+    margin-left: -550960px;
+}
+.pull-right-7 {
+    margin-right: -550960px;
+}
+.pull-8 {
+    margin-left: -630960px;
+}
+.pull-right-8 {
+    margin-right: -630960px;
+}
+.pull-9 {
+    margin-left: -710960px;
+}
+.pull-right-9 {
+    margin-right: -710960px;
+}
+.pull-10 {
+    margin-left: -790960px;
+}
+.pull-right-10 {
+    margin-right: -790960px;
+}
+.pull-11 {
+    margin-left: -870960px;
+}
+.pull-right-11 {
+    margin-right: -870960px;
+}
+.pull-12 {
+    margin-left: -950960px;
+}
+.pull-right-12 {
+    margin-right: -950960px;
+}
+.pull-13 {
+    margin-left: -1030960px;
+}
+.pull-right-13 {
+    margin-right: -1030960px;
+}
+.pull-14 {
+    margin-left: -1110960px;
+}
+.pull-right-14 {
+    margin-right: -1110960px;
+}
+.pull-15 {
+    margin-left: -1190960px;
+}
+.pull-right-15 {
+    margin-right: -1190960px;
+}
+.pull-16 {
+    margin-left: -1270960px;
+}
+.pull-right-16 {
+    margin-right: -1270960px;
+}
